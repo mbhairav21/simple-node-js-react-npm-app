@@ -1,0 +1,8 @@
+-#!/bin/sh     
+ssh ec2-user@13.235.50.53 -p Swara#4598 <<EOF       
+ cd /home/ec2-user/AWSRepo/simple-node-js-react-npm-app 
+ git pull      
+ npm install --production      
+ pm2 restart all
+ exit      
+EOF
