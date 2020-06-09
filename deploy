@@ -1,4 +1,4 @@
--#!/bin/sh     
+#!/bin/sh     
 ssh ec2-user@13.235.50.53<<EOF       
  cd /home/ec2-user/AWSRepo/simple-node-js-react-npm-app 
  git pull      
