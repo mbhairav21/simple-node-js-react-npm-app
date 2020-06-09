@@ -1,5 +1,5 @@
 #!/bin/sh     
-ssh ec2-user@172-31-47-56<<EOF       
+ssh ec2-user@172.31.47.56<<EOF       
  cd /home/ec2-user/AWSRepo/simple-node-js-react-npm-app 
  git pull      
  npm install --production      
