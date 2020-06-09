@@ -1,13 +1,23 @@
 {
- “name”: “simple-node-js-react-npm-app”,
- “description”: “hello jenkins test app”,
- “version”: “0.0.1”,
- “private”: true,
- “dependencies”: {
-    “express”: “3.12.0”
- },
- “devDependencies”: {
-    “mocha”: “1.20.1”,
-    “supertest”: “0.13.0”
- }
+  "name": "simple-node-js-react-npm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbhairav21/simple-node-js-react-npm-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbhairav21/simple-node-js-react-npm-app/issues"
+  },
+  "homepage": "https://github.com/mbhairav21/simple-node-js-react-npm-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
