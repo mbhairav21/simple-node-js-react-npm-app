@@ -1,3 +1,6 @@
 #!/bin/sh
 
-echo 'Ready to go?'
+   git pull      
+   npm install --production      
+   pm2 restart all
+   echo "deployment completed"
