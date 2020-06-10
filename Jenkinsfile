@@ -7,11 +7,13 @@ pipeline {
         }
     }
     stages {
-        stage('Build') { 
-            steps {
-                withDockerContainer(args: "-u root", image: "${JOB_NAME}")
-                sh 'npm install' 
-            }
+        stage("Install dependencies") {
+        // Run the container as `root` user
+        // Note: you can run any official Docker image here
+        withDockerContainer(args: "-u root", image: "${JOB_NAME}") {
+            sh "npm install"
         }
+    }
+        
     }
 }
